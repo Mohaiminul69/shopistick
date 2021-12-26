@@ -1,0 +1,48 @@
+.cart-plus-minus{    
+    position: relative;
+display: flex;
+width: 110px;
+height: 40px;
+padding: 0;
+margin:"4px"
+}
+.inc-qtybutton{
+    top: 0;
+    right: 0;
+    height: 40px;
+    border-left: 1px solid #e5e5e5;
+}
+.dec-qtybutton{top: 0;
+left: 0;
+height: 40px;
+border-right: 1px solid #e5e5e5;}
+
+.cart-plus-minus-box{
+    font-size: 14px;
+    float: left;
+    width: 210px;
+    height: 40px;
+    margin: 0 10px;
+    padding: 0;
+    text-align: center;
+    color: rgb(219, 30, 30);
+    border: 1px solid #e1e1e1;
+    background: transparent none repeat scroll 0 0;}
+    
+    .cart-button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    display: inline-block;
+    padding: 18px 63px 17px;
+    text-transform: uppercase;
+    color: #363f4d;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-top: 10px;
+    }
+    .card-button :hover{
+        background-color: #6f42c1;
+        color: white
+    }
