@@ -1,0 +1,64 @@
+
+.login-form {
+    form {
+        input {
+            background-color: transparent;
+            outline: none;
+            border: 1px solid #ebebeb;
+            color: #333;
+            font-size: 14px;
+            height: 55px;
+            margin-bottom: 30px;
+            padding: 0 15px;
+            width: 100%;
+            transition: all .3s ease 0s;
+            overflow: visible;
+        }
+        .login-toggle-btn{
+            padding: 10px 0 19px;
+              input[type=checkbox] {
+                  height: 15px;
+                  margin: 0;
+                  position: relative;
+                  top: 1px;
+                  width: 17px;
+              }
+              label{
+                  color: #242424;
+                  font-size: 15px;
+                  font-weight: 400;
+                  margin-left: 10px;
+                  margin-bottom: 0.5rem;
+              }
+              a{
+                  color: #242424;
+                  float: right;
+                  font-size: 15px;
+                  transition: all .3s ease 0s;
+                  line-height: inherit;
+                  cursor: pointer;
+                  text-decoration: none;
+                  &:hover {
+                      color: #6f42c1;
+                  }
+              }
+        }
+        button{
+                background-color: #f2f2f2;
+                border: none;
+                color: #333;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1;
+                padding: 11px 30px;
+                text-transform: uppercase;
+                transition: all .3s ease 0s;
+                &:hover{
+                     background-color: #6f42c1;
+                     color: #fff;
+                }
+        }
+      
+    }
+}
