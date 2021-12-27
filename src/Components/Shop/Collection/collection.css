@@ -1,0 +1,13 @@
+.producWrapper {
+  background: #f6f6f6;
+  height: 100%;
+}
+.imgWrapper {
+  width: 100%;
+  height: 300px;
+}
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
